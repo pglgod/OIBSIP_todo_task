@@ -1,0 +1,32 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+.align-c{
+    align-items: center;
+}
+.j-co-c{
+    justify-content: center;
+}
+.j-co-sb{
+    justify-content: space-between;
+}
+.j-co-sr{
+    justify-content: space-around;
+}

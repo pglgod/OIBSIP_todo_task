@@ -1,0 +1,204 @@
+
+
+
+
+.container{
+    height:  calc(100vh - 80px);
+    background-color: rgb(232, 232, 228);
+    margin: auto;
+}
+.navbar{
+    background-color: rgb(48, 48, 48);
+    height: 80px;
+}
+
+.logo h1{
+    color:#fff ;
+    font-size: 35px;
+}
+
+
+.nav-links ul {
+    gap: 20px;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    
+}
+.nav-links ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.active{
+    color: #fff;
+}
+.inactive{
+    color: #b1b1b1;
+}
+
+.nav-item button{
+    width: 150px;
+    height: 35px;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+    cursor: pointer;
+
+    font-size: 20px ;
+}
+
+
+/* Home */
+
+
+.home .task-cnt{
+    /* width: 60%; */
+    background-color: rgb(212, 212, 212);
+    height: calc(100vh - 80px);
+    
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tasks{
+    padding: 20px 25px;
+}
+
+.home-hadding{
+    padding: 15px 50px;
+    font-size: 35px;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+/* table */
+
+
+.t-head{
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border-top: 1px solid #fff; */
+
+}
+
+.t-head li{
+    text-align: center;
+}
+
+.t-row{
+    margin-bottom: 15px;
+    width: 100%;
+    /* height: 60px; */
+}
+
+.t-row li{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(36, 35, 35);
+    
+}
+
+.des{
+    width: 450px;  
+}
+.name{
+    width: 300px;
+}
+.status{
+    width: 150px;
+}
+
+.from, .to{
+    width: 100px;
+}
+
+.todo-btns{
+    width: 300px;
+    gap: 15px;
+}
+
+.todo-btns button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    
+}
+
+/* form */
+
+
+
+.add-user-form{
+    padding: 25px 30px;
+    width: calc(600px - 60px);
+    /* height: calc(290px - 50px); */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px #6666667e,
+    0px 0px 12px #6666669d;
+}
+
+
+.input-field {
+    margin-bottom: 15px;
+}
+.input-field label{
+    width: 150px;
+    font-size: 20px;
+}
+
+.input-field input{
+    width: 300px;
+    height: 30px;
+    padding: 0 15px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: black;
+}
+
+.input-field select{
+    width: calc(300px + 30px);
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid rgb(48, 48, 48);
+    outline: none;
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+}
+
+
+
+.input-field input[type="submit"]{
+    width: 480px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    border: 2px solid rgb(36, 35, 35);
+}
+
+
+.input-field input[type="submit"]:hover{
+    background-color: #fff;
+    color: rgb(36, 35, 35);
+    border:2px solid rgb(36, 35, 35);
+}
+
+
+
+
+
+
+
